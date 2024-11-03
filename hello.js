@@ -1,3 +1,6 @@
-let sayHello = (name) => `Hello, ${name}!`;
+let sayHello2 = (arr) => arr.join('');
+const arr = ['hello', ' ', 'world', '!'];
+console.log(sayHello2(arr));
 
-console.log(sayHello(process.argv[2]));
+// let sayHello = (name) => `Hello, ${name}!`;
+// console.log(sayHello(process.argv[2]));
